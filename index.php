@@ -18,8 +18,30 @@
     
     <div class="row">
       <div class="large-10 large-offset-1 columns" id="gallerycontainer">
+
+
+        <div class="orbit-container show-for-small-up">
+          <ul data-orbit="" data-options="animation:slide;navigation_arrows:true;">
+            <li>
+              <img src="images/ArmyOfDarkness.jpg" alt="Army of Darkness">
+            </li>
+            <li class="active">
+              <img src="images/Beetlejuice.jpg" alt="Beetlejuice">
+            </li>
+            <li>
+              <img src="images/BlackHawkDown.jpg" alt="Black Hawk Down">
+            </li>
+          </ul>
+        </div>
+
+                  
+      </div>
+    </div>
+
+
+
         
-        <ul class="movie-orbit" data-orbit>
+        <!--<ul class="movie-orbit" data-orbit>
           <li class="active">
             <img src="images/ArmyOfDarkness.jpg" alt="Army of Darkness" />
             <div class="orbit-caption">
@@ -41,7 +63,7 @@
         </ul>
       
       </div>
-    </div>
+    </div>-->
 
     <div class="row">
       <div class="large-12 columns" id="footer">
