@@ -20,23 +20,49 @@
       <div class="large-10 large-offset-1 columns" id="gallerycontainer">
 
 
-        <div class="orbit-container show-for-small-up">
+        <div class="orbit" role="region" aria-label="Featured Movies" data-orbit>
+          <ul class="orbit-container">
+            <button class="orbit-previous"><span class="show-for-sr">Previous</span>&#9664;&#xFE0E;</button>
+            <button class="orbit-next"><span class="show-for-sr">Next</span>&#9654;&#xFE0E;</button>
+            <li class="is-active orbit-slide">
+              <img class="orbit-image" src="images/ArmyOfDarkness.jpg" alt="Army of Darkness">
+              <figcaption class="orbit-caption">Army of Darkness</figcaption>
+            </li>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="images/Beetlejuice.jpg" alt="Beetlejuice">
+              <figcaption class="orbit-caption">Beetlejuice</figcaption>
+            </li>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="images/BlackHawkDown.jpg" alt="Black Hawk Down">
+              <figcaption class="orbit-caption">Black Hawk Down</figcaption>
+            </li>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="images/CloudyWithAChanceOfMeatballs.jpg" alt="Cloudy With A Chance Of Meatballs">
+              <figcaption class="orbit-caption">Cloudy With A Chance Of Meatballs</figcaption>
+            </li>
+          </ul>
+          <nav class="orbit-bullets">
+            <button class="is-active" data-slide="0"><span class="show-for-sr">First slide.</span><span class="show-for-sr">Current Slide</span></button>
+            <button data-slide="1"><span class="show-for-sr">Second slide.</span></button>
+            <button data-slide="2"><span class="show-for-sr">Third slide.</span></button>
+            <button data-slide="3"><span class="show-for-sr">Fourth slide.</span></button>
+          </nav>
+        </div>
+
+
+        <!--<div class="orbit-container show-for-small-up">
           <ul data-orbit="" data-options="animation:slide;navigation_arrows:true;">
-            <li>
+            <li class="active">
               <img src="images/ArmyOfDarkness.jpg" alt="Army of Darkness">
             </li>
-            <li class="active">
+            <li>
               <img src="images/Beetlejuice.jpg" alt="Beetlejuice">
             </li>
             <li>
               <img src="images/BlackHawkDown.jpg" alt="Black Hawk Down">
             </li>
           </ul>
-        </div>
-
-                  
-      </div>
-    </div>
+        </div>-->
 
 
 
@@ -60,10 +86,10 @@
               Black Hawk Down
             </div>
           </li>
-        </ul>
+        </ul>-->
       
       </div>
-    </div>-->
+    </div>
 
     <div class="row">
       <div class="large-12 columns" id="footer">
