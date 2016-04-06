@@ -33,7 +33,7 @@
               </div>
             </li>
             <li>
-              <img src="BlackHawkDown.jpg" alt="Black Hawk Down" />
+              <img src="images/BlackHawkDown.jpg" alt="Black Hawk Down" />
               <div class="orbit-caption">
                 Black Hawk Down
               </div>
