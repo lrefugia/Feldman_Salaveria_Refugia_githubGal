@@ -18,64 +18,50 @@
     
     <div class="row">
       <div class="large-10 large-offset-1 columns" id="gallerycontainer">
-        <div class="orbit-container">
-          <ul data-orbit class="movie-orbit orbit-slides-container">
-            <li class="active">
-              <img src="images/ArmyOfDarkness.jpg" alt="Army of Darkness" />
-              <div class="orbit-caption">
-                Army of Darkness
-              </div>
+
+
+        <div class="orbit" role="region" aria-label="Featured Movies" data-orbit>
+          <ul class="orbit-container">
+            <button class="orbit-previous"><span class="show-for-sr">Previous</span>&#9664;&#xFE0E;</button>
+            <button class="orbit-next"><span class="show-for-sr">Next</span>&#9654;&#xFE0E;</button>
+            <li class="is-active orbit-slide">
+              <img class="orbit-image" src="images/ArmyOfDarkness.jpg" alt="Army of Darkness">
+              <figcaption class="orbit-caption">Army of Darkness</figcaption>
             </li>
-            <li>
-              <img src="images/Beetlejuice.jpg" alt="Beetlejuice" />
-              <div class="orbit-caption">
-                Beetlejuice
-              </div>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="images/Beetlejuice.jpg" alt="Beetlejuice">
+              <figcaption class="orbit-caption">Beetlejuice</figcaption>
             </li>
-            <li>
-              <img src="BlackHawkDown.jpg" alt="Black Hawk Down" />
-              <div class="orbit-caption">
-                Black Hawk Down
-              </div>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="images/BlackHawkDown.jpg" alt="Black Hawk Down">
+              <figcaption class="orbit-caption">Black Hawk Down</figcaption>
+            </li>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="images/CloudyWithAChanceOfMeatballs.jpg" alt="Cloudy With A Chance Of Meatballs">
+              <figcaption class="orbit-caption">Cloudy With A Chance Of Meatballs</figcaption>
             </li>
           </ul>
-
-          <!-- n a v i g a t i o n -->
-          <a href="#" class="orbit-prev">Prev <span></span></a>
-          <a href="#" class="orbit-next">Next <span></span></a>
-
-          <!-- n u m b e r s -->
-          <div class="orbit-slide-number">
-            <span>1</span> of <span>3</span>
-          </div>
-
-          <!-- p l a y  &  p a u s e -->
-          <div class="orbit-timer">
-            <span></span>
-            <div class="orbit-progress"></div>
-          </div>
+          <nav class="orbit-bullets">
+            <button class="is-active" data-slide="0"><span class="show-for-sr">First slide.</span><span class="show-for-sr">Current Slide</span></button>
+            <button data-slide="1"><span class="show-for-sr">Second slide.</span></button>
+            <button data-slide="2"><span class="show-for-sr">Third slide.</span></button>
+            <button data-slide="3"><span class="show-for-sr">Fourth slide.</span></button>
+          </nav>
         </div>
-
-        <!-- b u l l e t s -->
-        <ol class="orbit-bullets">
-          <li data-orbit-slide-number="1" class="active"></li>
-          <li data-orbit-slide-number="2"></li>
-          <li data-orbit-slide-number="3"></li>
-        </ol>
       
       </div>
     </div>
 
     <div class="row">
       <div class="large-12 columns" id="footer">
-        <h1>&copy; The Blu-Ray Database 2016 • Jennifer Feldman / Leona Refugia / Mia Salaveria / Amy Krasin</h1>
+        <h1>&copy; The Blu-Ray Database 2016 • Jennifer Feldman / Leona Refugia / Mia Salaveria</h1>
       </div>
     </div>
 
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
-    <script src="js/orbit.js"></script>
+    <script src="js/foundation.orbit.js"></script>
     <script>
       $(document).foundation();
     </script>
