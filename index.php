@@ -1,33 +1,39 @@
 <!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Welcome to the Blu-ray database!</title>
-<link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet' type='text/css'><link rel="stylesheet" href="css/foundation.css"/>
-<link rel="stylesheet" href="css/main.css" />
-</head>
-<body>
-<a href="index.php"><h1>Welcome to the biggest Blu-ray database</h1></a>
-
-    <br>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Releases</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    
     <div class="row">
-    	<div class="large-5 medium-5 small-5 large-centered medium-centered small-centered columns" id="searchInput">
-            <form>
-            <input id="srch" type="text" size="30" placeholder="SEARCH...">
-            <div id="livesrch"></div>
-            </form>
-    	</div>
+      <div class="large-12 columns" id="header">
+        <h1>Welcome to the Blu-Ray Database!</h1>
+        <h2>Come explore our new releases</h2>
+      </div>
     </div>
-    <br>
-<?php include('includes/nav.html'); ?>
+    
+    <div class="row">
+      <div class="large-10 large-offset-1 columns" id="gallerycontainer">
+      
+      
+      </div>
+    </div>
 
-	<div class="row">
-        <div class="details">
-        </div>
-        <div class="movies">
-        </div>
-<?php include('includes/footer.html'); ?>
-<script src="js/utility.js"></script>
-</body>
+    <div class="row">
+      <div class="large-12 columns" id="footer">
+        <h1>&copy; The Blu-Ray Database 2016 • Jennifer Feldman / Leona Refugia / Mia Salaveria / Amy Krasin</h1>
+      </div>
+    </div>
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
 </html>
